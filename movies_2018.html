@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>365 Days at the Box Office (2018)</title>
+        <!--Use the line below to link to the latest version of D3-->
+        <!--<script src="https://d3js.org/d3.v5.min.js"></script>-->
+        <script type="text/javascript" src="d3.js"></script>   
+    <style>
+    .header {grid-area: header;}
+    .divider1 {grid-area: divider1;}
+    .divider2 {grid-area: divider2;}
+    #viz1 {grid-area: area_chart;}
+    #area_comments {grid-area: area_comments;}
+    #viz3 {grid-area: pie_chart;}
+    #viz2_dropdown {grid-area: drop_down;}
+    #viz2 {grid-area: bar_chart;}
+    #bar_comments {grid-area: bar_comments;}
+    .footer {grid-area: footer;}
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header'
+            'divider1 divider1'
+            'area_chart area_comments'
+            'area_chart pie_chart'
+            'divider2 divider2'
+            'drop_down drop_down'
+            'bar_chart bar_comments'
+            'footer footer'
+    }
+    div {
+        font-family: Georgia, serif;
+    }
+    a {
+        color: #53777A;
+        text-decoration: none;
+    }
+    .axis text {
+        font-family: Georgia, serif;
+    }    
+    </style>
+    </head>
+    <body>
+    <div class="grid-container">
+        <div class="header">
+            <h1 style="color:#53777A; font-weight:bold">365 Days at the Box Office</h1>
+            <p>Americans spent nearly <span style="color:#53777A; font-weight:bold; font-size:28px">$12 billion</span> at the movies in 2018.  The area chart below shows the gross domestic box office sales for every day in 2018, grouped either by MPAA rating or film distributor, and the bar chart shows the top 10 films, distributors and single-day box office takes for the year.</p>
+        </div>
+        <hr class="divider1" color="#53777A" width="95%">
+        <div class="section" id="viz1"></div>
+        <script type="text/javascript" src="movies_area.js"></script>
+        <div class="comments" id="area_comments">
+            The box office for 2018 follows a weekly cyclical pattern, with spikes appearing on weekends (Fridays, Saturdays and Sundays).  Spikes can also be seen around the year-end holidays (Thanksgiving and Christmas).<br><br><span style='color:#53777A; font-weight:bold; font-size:20px'>PG-13</span> movies took in <span style='color:#53777A; font-weight:bold; font-size:20px'>55%</span> of the overall box office, followed by R-rated movies (24%) and PG movies (21%).<br><br>Movie-going was roughly evenly split between quarters, with a slightly higher percent in Quarter 2, which is when traditional summer tentpole movies are released (in 2018, <i>Avengers: Infinity War</i> kicked off the summer movie season).
+        </div>
+        <div style="text-align:center;" class="section" id="viz3"></div>
+        <script type="text/javascript" src="movies_pie.js"></script>
+        <hr class="divider2" color="#53777A" width="95%">
+        <div class="drop-down" id="viz2_dropdown">Show Top 10: </div>
+        <div class="section" id="viz2"></div>
+        <div class="comments" id="bar_comments"></div>
+        <script type="text/javascript" src="movies_top10.js"></script>
+        <div class="footer">Data Sources for All Visualizations: <a href="https://www.the-numbers.com" target="_blank">the-numbers</a> 
+        and <a href="http://www.imdb.com" target="_blank">IMDB</a></div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+Rank,IMDBid,movie,distributor,IMDBRating,MPAA,RunTime,movie_gross,max_theaters,days,top_distributors,distributor_gross,movies_released,top_days,days_gross,top_movie,days_released
+1,1825683,Black Panther,Walt Disney,7.3,PG-13,134,700059566,4084,175,Walt Disney,3092383747,13,04/27/18,121868103,Avengers: Infinity War,1
+2,4154756,Avengers: Infinity War,Walt Disney,8.5,PG-13,149,678815482,4474,140,Warner Bros.,1913754213,28,04/28/18,105292599,Avengers: Infinity War,2
+3,3606756,Incredibles 2,Walt Disney,7.8,PG,118,608581744,4413,182,Universal,1762749766,21,06/23/18,100793930,Jurassic World: Fallen Kingdom,2
+4,4881806,Jurassic World: Fallen Kingdom,Universal,6.2,PG-13,128,416769345,4485,105,Sony Pictures,1281852148,27,02/17/18,99882796,Black Panther,2
+5,5463162,Deadpool 2,20th Century Fox,7.8,R,119,318482400,4349,126,20th Century Fox,1089546358,18,06/15/18,98024295,Incredibles 2,1
+6,2709692,Dr. Seuss' The Grinch,Universal,6.3,PG,86,266280410,4141,53,Paramount Pictures,765901261,13,02/16/18,97695072,Black Panther,1
+7,2283362,Jumanji: Welcome to the Jungle,Sony Pictures,7,PG-13,119,235506359,3849,148,Lionsgate,352672797,17,06/22/18,96682881,Jurassic World: Fallen Kingdom,1
+8,4912910,Mission: Impossible - Fallout,Paramount Pictures,7.8,PG-13,147,220159104,4395,84,STX Entertainment,269558897,10,06/16/18,90956473,Incredibles 2,2
+9,5095030,Ant-Man and the Wasp,Walt Disney,7.1,PG-13,118,216648740,4206,119,Focus Features,169973097,14,02/18/18,86498226,Black Panther,3
+10,3778644,Solo: A Star Wars Story,Walt Disney,7,PG-13,135,213767512,4381,119,MGM,164077647,3,04/29/18,84305451,Avengers: Infinity War,3
